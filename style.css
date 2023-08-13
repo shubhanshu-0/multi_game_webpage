@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background:linear-gradient(rgba(113, 105, 151, 0.476),rgba(230, 164, 164, 0.659)), url("../images/sunset.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 780px;
+}
+.container{
+    margin-top: 10rem;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.287);
+    min-width: 80%;
+}
+.logo{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 2.5em;
+    color: rgb(254, 236, 255);
+    font-family: 'borel', cursive;
+    text-shadow: 0px 0px 20px rgba(134, 241, 255, 0.726);
+}
+.logo:hover{
+    color: aliceblue;
+}
+.nav ul li{
+    display: inline-block;
+    background-color: white;
+    color: white;
+    margin: auto 1.2rem;
+    height: 2rem;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(134, 241, 255, 0.726);
+    background-color: rgb(12, 24, 29);
+}
+.nav ul li a:hover{
+    background-color: rgb(113, 237, 237);
+    color: black;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+    height: 2rem;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav ul{
+    display: flex;
+    padding: 0.3rem;
+    margin-right: 2rem;
+}
+.row img{
+    height: 350px;
+    opacity: 0.8;
+    box-shadow: 0px 0px 20px rgb(105, 227, 243);
+}
+.row img:hover{
+    box-shadow: 0px 0px 20px rgb(243, 243, 105); 
+    opacity: 1;
+}
+.footer{
+    height: 30vh;
+}
+.logo img{
+    height: 55px;
+    width: auto;
+    float: left;
+    margin-right: 30px;
+    margin-left: 1.5rem;
+    margin-top: 3px;
+}

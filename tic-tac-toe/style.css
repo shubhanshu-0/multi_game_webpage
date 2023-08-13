@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Borel', cursive;
+}
+nav{
+    height: 9vh;
+    width: 1440px;
+    text-align: center;
+    display: flex;
+    min-width: 850px;
+    max-width: 100%;
+}
+nav ul{
+    color: white;
+    padding: 0.2rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: 2.5rem;   
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+nav ul li{
+    text-shadow: 0px 0px 20px rgb(107, 217, 242);
+}
+.container{
+    height: 300px;
+    width: 300px;
+    margin-right: 2rem;
+    background-color:rgb(33, 45, 55,0.5);
+    box-shadow: 0px 0px 20px rgba(134, 241, 255, 0.726);
+    text-shadow: 0px 0px 20px rgba(251, 255, 134, 0.726);
+}
+.row{
+    display: flex;
+}
+.game{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 3rem; 
+}
+.row-1 .pixels{
+    border-top: none;
+}
+.row-3 .pixels{
+    border-bottom: none;
+}
+.pixels{
+    height:100px;
+    width: 100px;
+    border:1px solid rgb(50, 235, 241);
+}
+.pixels:hover{
+    background-color:rgba(153, 218, 236, 0.368);
+}
+#reset{
+    padding:0.4rem 0.8rem;
+    border-radius: 100px;
+    border: none;
+    color: rgb(198, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#reset:hover{
+    background-color: rgb(107, 247, 247);
+    color: rgb(0, 0, 0);
+}
+.pixels .boxtext{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+img{
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: white;
+}
+.bg{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 74, 131, 0.5)) , url("landscape.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-width: 850px;
+}
+.gameInfo{
+    color: white;
+}
