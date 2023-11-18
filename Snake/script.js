@@ -11,7 +11,7 @@ let snakeArr = [
     {x: 13, y: 15}
 ];
 
-let checkaudio = true; 
+let checkaudio = false; 
 
 food = {x: 6, y: 7};
 
